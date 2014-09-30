@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/nicolasbro/Documents/AndroidStudioProject/dagger/app/build/intermediates/pre-dexed/debug/dagger-1.2.2-b879e71b9863ba3087a1d32080a08fe2d14abc97.jar"
+        jar="/Users/nicolasbro/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8"/>
+    <item
+        dex="/Users/nicolasbro/Documents/AndroidStudioProject/dagger/app/build/intermediates/pre-dexed/debug/retrofit-1.4.1-0c7ed90ccbce347cd79f96a48d984227aead49b5.jar"
+        jar="/Users/nicolasbro/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.4.1/23de973a4908bc6f5ac6524af3251a19ad81a7b1/retrofit-1.4.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="23de973a4908bc6f5ac6524af3251a19ad81a7b1"/>
+    <item
+        dex="/Users/nicolasbro/Documents/AndroidStudioProject/dagger/app/build/intermediates/pre-dexed/debug/gson-2.2.4-b43daa2cf99d46888c7a0f0882e782f0c1955e35.jar"
+        jar="/Users/nicolasbro/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="/Users/nicolasbro/Documents/AndroidStudioProject/dagger/app/build/intermediates/pre-dexed/debug/javax.inject-1-c158f157df9f5aefd7652d9f3975f9813a17265b.jar"
+        jar="/Users/nicolasbro/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38"/>
+
+</pre-dex-items>
