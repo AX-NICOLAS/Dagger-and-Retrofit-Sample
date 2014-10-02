@@ -1,4 +1,4 @@
-package fr.ineat.dagger;
+package fr.ineat.dagger.ui;
 
 import android.app.Application;
 import android.content.Context;
@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import dagger.ObjectGraph;
+import fr.ineat.dagger.module.DbModule;
 import fr.ineat.dagger.module.RetrofitModule;
 
 /**
@@ -28,7 +29,7 @@ public class BaseApplication extends Application {
      * provide additional modules provided they call {@code super.getModules()}.
      */
     protected List<Object> getModules() {
-        return Arrays.<Object>asList(new RetrofitModule());
+        return Arrays.asList(new DbModule(this), new RetrofitModule());
     }
 
     public void inject(Object o) {

@@ -1,4 +1,15 @@
+/*buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.jakewharton.hugo:hugo-plugin:1.1.0'
+    }
+}*/
+
 apply plugin: 'com.android.application'
+//apply plugin: 'hugo'
 
 android {
     compileSdkVersion 20
@@ -27,5 +38,10 @@ dependencies {
     provided 'com.squareup.dagger:dagger-compiler:1.2.1'
 
     //retrofit
-    compile 'com.squareup.retrofit:retrofit:1.4.1'
+    compile 'com.squareup.retrofit:retrofit:1.6.1'
+
+    //observable
+    compile 'io.reactivex:rxjava:+'
+    //compile 'com.netflix.rxjava:rxjava-android:0.20.4'
+
 }

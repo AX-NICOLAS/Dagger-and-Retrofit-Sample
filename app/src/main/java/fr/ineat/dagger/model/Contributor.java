@@ -5,23 +5,7 @@ package fr.ineat.dagger.model;
  */
 public class Contributor {
 
-    String login;
+    public String login;
+    public int contributions;
 
-    int contributions;
-
-    public int getContributions() {
-        return contributions;
-    }
-
-    public void setContributions(int contributions) {
-        this.contributions = contributions;
-    }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
 }

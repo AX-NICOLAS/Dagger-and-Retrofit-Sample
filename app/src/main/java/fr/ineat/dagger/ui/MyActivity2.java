@@ -1,7 +1,6 @@
-package fr.ineat.dagger;
+package fr.ineat.dagger.ui;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
@@ -12,6 +11,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import fr.ineat.dagger.R;
 import fr.ineat.dagger.contrast.IApiRequest;
 import fr.ineat.dagger.model.Contributor;
 
@@ -27,7 +27,7 @@ public class MyActivity2 extends Activity {
 
         BaseApplication.from(this).inject(this);
 
-        new AsyncTask<Void,Void, List<Contributor>>(){
+        /*new AsyncTask<Void,Void, List<Contributor>>(){
             @Override
             protected List<Contributor> doInBackground(Void... voids) {
                 return iApiRequest.contributors("square","kochiku");
@@ -39,7 +39,7 @@ public class MyActivity2 extends Activity {
                 Toast.makeText(MyActivity2.this, contributors.size() + "< --- size contributor kochiku", Toast.LENGTH_SHORT).show();
             }
 
-        }.execute();
+        }.execute();*/
     }
 
 
